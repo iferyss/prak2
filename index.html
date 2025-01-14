@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Шифрование и Дешифрование</title>
+</head>
+<body>
+  <h1>Шифрование и Дешифрование Сообщений Котов Павел, Огурцов Виктор и Бурда Антон</h1>
+  <label for="message">Сообщение:</label>
+  <input type="text" id="message" required>
+  
+  <label for="key">Ключ:</label>
+  <input type="text" id="key" required>
+  
+  <label for="mode">Режим:</label>
+  <select id="mode">
+      <option value="encrypt">Шифрование</option>
+      <option value="decrypt">Дешифрование</option>
+  </select>
+  
+  <button onclick="processMessage()">Обработать</button>
+  
+  <div id="output"></div>
+  <script src="script.js"></script>
+</body>
+</html>
