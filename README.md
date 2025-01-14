@@ -18,7 +18,7 @@
 
 1. Скачайте или клонируйте репозиторий:
    ```bash
-   git clone <URL_репозитория>
+   git clone <https://github.com/iferyss/prak2.git>
 
     Откройте файл index.html в вашем веб-браузере.
 
